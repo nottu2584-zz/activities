@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> with props should match the snapshot 1`] = `"<div class=\\"modal modal-0-2-1\\"><div class=\\"wrapper wrapper-0-2-2\\"><div class=\\"content content-0-2-3\\"><h2 class=\\"fullWidth-0-2-4\\">some_title</h2><p class=\\"fullWidth-0-2-4\\">some_message</p><ul class=\\"fullWidth-0-2-4\\"><li>Vacations in Hawaii</li></ul><button class=\\"button-0-2-6\\">Oh, I see!</button></div></div></div>"`;
+
+exports[`<Modal /> without props should match the snapshot 1`] = `"<div class=\\"modal modal-0-2-1\\"><div class=\\"wrapper wrapper-0-2-2\\"><div class=\\"content content-0-2-3\\"><h2 class=\\"fullWidth-0-2-4\\"></h2><p class=\\"fullWidth-0-2-4\\"></p><ul class=\\"fullWidth-0-2-4\\"></ul><button class=\\"button-0-2-6\\">Oh, I see!</button></div></div></div>"`;

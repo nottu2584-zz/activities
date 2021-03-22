@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match the snapshot 1`] = `"<div class=\\"app app-0-2-1\\"><div class=\\"content content-0-2-2\\"><header class=\\"header\\"><h1>My 2020 Activity Tracker</h1></header><div class=\\"activities activities-0-2-3\\"><div class=\\"row-0-2-4 row head\\"><div class=\\"cell-0-2-5 col col-1\\"></div><div class=\\"cell-0-2-5 col col-2\\">Activity Name</div><div class=\\"cell-0-2-5 col col-3\\">COVID Friendly</div><div class=\\"cell-0-2-5 col col-4\\">Times Performed</div></div></div></div></div>"`;

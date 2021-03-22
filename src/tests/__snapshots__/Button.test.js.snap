@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> with props should match the snapshot 1`] = `"<button class=\\"button-0-2-1\\">some_text</button>"`;
+
+exports[`<Button /> without props should match the snapshot 1`] = `"<button class=\\"button-0-2-1\\"></button>"`;

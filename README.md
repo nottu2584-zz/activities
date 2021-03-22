@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Activity Tracker
+
+This is my approach to a code assesment regarding an activity tracker. It allows the user to track and perform certain activities that are friendlier during the pandemic outbreak of COVID. I relied on hooks for this app.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Some libraries that I have used and so are checked as dependencies are [axios](https://github.com/axios/axios) to manage the service query and [react-jss](https://github.com/cssinjs/jss/tree/master/packages/react-jss) to allow theming.
+
+## Structure
+* `/src/actions`: type definitions for all available actions
+* `/src/components`: components used inside the application
+* `/src/reducers`: functions that interact with the application state
+* `/src/services`:  contain methods that maintain data throughout the life the application
+* `/src/tests`: defines automated test scripts to meet application design
+
+## About Services
+This application does not consume an external API, but it is intended to do so. The current data is being mocked trough a public JSON called `mockUpActivities.json` inside the `public` folder.
 
 ## Available Scripts
 
@@ -38,33 +52,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
