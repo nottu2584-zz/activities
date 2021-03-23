@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Some libraries that I have used and so are checked as dependencies are [axios](https://github.com/axios/axios) to manage the service query and [react-jss](https://github.com/cssinjs/jss/tree/master/packages/react-jss) to allow theming.
 
+## Installation
+The following installation is assuming you are using `yarn`. You can get and install `yarn` following this [guide](https://classic.yarnpkg.com/en/docs/install#windows-stable).
+1. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or download this repository to a folder of your choice.
+2. Run `yarn install` from the CLI whitin that folder.
+3. Run `yarn start` to start the development server.
+
 ## Structure
 * `/src/actions`: type definitions for all available actions
 * `/src/components`: components used inside the application
