@@ -1,11 +1,10 @@
-
 import { default as React } from "react";
 import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   button: {
     background: "#009b72",
-    boxShadow: "0 1px 2px #333",
+    boxShadow: "0 1px 2px #111",
     border: "none",
     borderRadius: "5px",
     color: "#ffffff",
@@ -21,14 +20,14 @@ const useStyles = createUseStyles({
     transition: "box-shadow 0.25s",
     WebkitFontSmoothing: "antialiased",
     MozOsxFontSmoothing: "grayscale",
+    "&:hover": { boxShadow: "0 1px 20px #111" },
   },
-  "&:hover": { boxShadow: "0 1px 20px #333" },
 });
 
 const Button = (props) => {
   const classes = useStyles();
-  
-  const {handleOnClick} = props;
+
+  const { handleOnClick } = props;
 
   return (
     <button className={classes.button} onClick={(e) => handleOnClick(e)}>

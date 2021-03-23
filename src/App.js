@@ -12,6 +12,9 @@ const useStyles = createUseStyles({
     alignItems: "center",
     justifyContent: "center",
     textAlign: "center",
+    "& button": {
+      marginTop: "1.5em"
+    }
   },
   content: {
     padding: "5%",
